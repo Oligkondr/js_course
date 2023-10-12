@@ -10,4 +10,4 @@ const invertCase = (text) => {
     return ans
 }
 
-export default invertCase
+export {invertCase}
