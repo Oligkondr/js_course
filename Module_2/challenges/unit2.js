@@ -10,5 +10,4 @@ const invertCase = (text) => {
     return ans
 }
 
-console.log(invertCase('Hello, World!'))
-console.log(invertCase('I loVe JS'))
+export default invertCase
