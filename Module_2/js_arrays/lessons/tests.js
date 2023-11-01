@@ -1,6 +1,7 @@
 import { getWeekends } from "./unit2.js";
 import { swap } from "./unit3.js";
 import get from "./unit4.js";
+import addPrefix from "./unit5.js";
 
 console.log('--- Unit 2 ---')
 console.log(getWeekends())
@@ -22,3 +23,10 @@ console.log(get(cities, -1, 'oops'));
 console.log(get(cities, 5, 'oops'));
 console.log(get(cities, 6, 'oops'));
 console.log(get(cities, 7));
+console.log('--- Unit 5 ---')
+const names = ['john', 'smith', 'karl'];
+const newNames = addPrefix(names, 'Mr');
+console.log(names);
+console.log(newNames);
+const actual2 = addPrefix(names, 'Mrs');
+console.log(actual2);
