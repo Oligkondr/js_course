@@ -3,6 +3,7 @@ import { swap } from "./unit3.js";
 import get from "./unit4.js";
 import addPrefix from "./unit5.js";
 import { reverse } from "./unit6.js";
+import calculateSum from "./unit7.js";
 
 console.log('--- Unit 2 ---')
 console.log(getWeekends())
@@ -36,3 +37,8 @@ reverse(names);
 console.log(names); // => ['karl', 'smith', 'john']
 reverse(names);
 console.log(names); // => ['john', 'smith', 'karl']
+console.log('--- Unit 7 ---')
+const coll1 = [8, 9, 21, 19, 18, 22, 7];
+console.log(calculateSum(coll1));
+const coll2 = [2, 0, 17, 3, 9, 15, 4];
+console.log(calculateSum(coll2));
