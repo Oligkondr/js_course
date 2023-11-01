@@ -2,6 +2,7 @@ import { getWeekends } from "./unit2.js";
 import { swap } from "./unit3.js";
 import get from "./unit4.js";
 import addPrefix from "./unit5.js";
+import { reverse } from "./unit6.js";
 
 console.log('--- Unit 2 ---')
 console.log(getWeekends())
@@ -30,3 +31,8 @@ console.log(names);
 console.log(newNames);
 const actual2 = addPrefix(names, 'Mrs');
 console.log(actual2);
+console.log('--- Unit 6 ---')
+reverse(names);
+console.log(names); // => ['karl', 'smith', 'john']
+reverse(names);
+console.log(names); // => ['john', 'smith', 'karl']
