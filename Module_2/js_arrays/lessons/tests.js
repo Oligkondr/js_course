@@ -8,6 +8,7 @@ import calculateAverage from './unit8.js';
 import getSameParity from './unit9.js';
 import getTotalAmount from './unit10.js';
 import getSuperSeriesWinner from './unit11.js';
+import makeCensored from './unit13.js';
 
 console.log('--- Unit 2 ---');
 console.log(getWeekends());
@@ -77,3 +78,8 @@ console.log('--- Unit 11 ---');
 const scores = [[3, 7], [4, 1], [4, 4], [3, 5],
     [4, 5], [3, 2], [4, 3], [6, 5]];
 console.log(getSuperSeriesWinner(scores));
+console.log('--- Unit 12 ---');
+const sentence = 'When you play the game of thrones, you win or you die';
+console.log(makeCensored(sentence, ['die', 'play']));
+const sentence2 = 'chicken chicken? chicken! chicken';
+console.log(makeCensored(sentence2, ['?', 'chicken']));
