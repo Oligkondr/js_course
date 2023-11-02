@@ -1,22 +1,23 @@
-import { getWeekends } from "./unit2.js";
-import { swap } from "./unit3.js";
-import get from "./unit4.js";
-import addPrefix from "./unit5.js";
-import { reverse } from "./unit6.js";
-import calculateSum from "./unit7.js";
+import {getWeekends} from './unit2.js';
+import {swap} from './unit3.js';
+import get from './unit4.js';
+import addPrefix from './unit5.js';
+import {reverse} from './unit6.js';
+import calculateSum from './unit7.js';
+import calculateAverage from './unit8.js';
 
-console.log('--- Unit 2 ---')
-console.log(getWeekends())
-console.log(getWeekends('long'))
-console.log(getWeekends('short'))
-console.log('--- Unit 3 ---')
-let array0 = ['apple', 'orange', 'blueberry']
-let array1 = ['apple', 'orange']
-let array2 = ['apple']
-console.log(swap(array0))
-console.log(swap(array1))
-console.log(swap(array2))
-console.log('--- Unit 4 ---')
+console.log('--- Unit 2 ---');
+console.log(getWeekends());
+console.log(getWeekends('long'));
+console.log(getWeekends('short'));
+console.log('--- Unit 3 ---');
+let array0 = ['apple', 'orange', 'blueberry'];
+let array1 = ['apple', 'orange'];
+let array2 = ['apple'];
+console.log(swap(array0));
+console.log(swap(array1));
+console.log(swap(array2));
+console.log('--- Unit 4 ---');
 const cities = ['moscow', 'london', 'berlin', 'porto', '', null, undefined];
 console.log(get(cities, 1));
 console.log(get(cities, 4));
@@ -25,20 +26,25 @@ console.log(get(cities, -1, 'oops'));
 console.log(get(cities, 5, 'oops'));
 console.log(get(cities, 6, 'oops'));
 console.log(get(cities, 7));
-console.log('--- Unit 5 ---')
+console.log('--- Unit 5 ---');
 const names = ['john', 'smith', 'karl'];
 const newNames = addPrefix(names, 'Mr');
 console.log(names);
 console.log(newNames);
 const actual2 = addPrefix(names, 'Mrs');
 console.log(actual2);
-console.log('--- Unit 6 ---')
+console.log('--- Unit 6 ---');
 reverse(names);
-console.log(names); // => ['karl', 'smith', 'john']
+console.log(names);
 reverse(names);
-console.log(names); // => ['john', 'smith', 'karl']
-console.log('--- Unit 7 ---')
+console.log(names);
+console.log('--- Unit 7 ---');
 const coll1 = [8, 9, 21, 19, 18, 22, 7];
 console.log(calculateSum(coll1));
 const coll2 = [2, 0, 17, 3, 9, 15, 4];
 console.log(calculateSum(coll2));
+console.log('--- Unit 8 ---');
+const temperatures1 = [37.5, 34, 39.3, 40, 38.7, 41.5];
+console.log(calculateAverage(temperatures1));
+const temperatures2 = [36, 37.4, 39, 41, 36.6];
+console.log(calculateAverage(temperatures2));

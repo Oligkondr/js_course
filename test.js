@@ -1,3 +1,9 @@
-console.log('apple')
-console.log('tasty apple')
-console.log('very tasty apple')
+// export const castNumber = (value) => {
+//     let ans;
+//     if (value == Number(value)) {
+//         ans = Number(value);
+//     }
+//     return ans
+// };
+//
+// console.log(castNumber('1'));
