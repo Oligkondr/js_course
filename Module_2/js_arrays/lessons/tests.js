@@ -7,6 +7,7 @@ import calculateSum from './unit7.js';
 import calculateAverage from './unit8.js';
 import getSameParity from './unit9.js';
 import getTotalAmount from './unit10.js';
+import getSuperSeriesWinner from './unit11.js';
 
 console.log('--- Unit 2 ---');
 console.log(getWeekends());
@@ -72,3 +73,7 @@ const money3 = [
     'eur 10', 'rub 50', 'eur 5', 'rub 10', 'rub 10', 'eur 100', 'rub 200',
 ];
 console.log(getTotalAmount(money3, 'rub'));
+console.log('--- Unit 11 ---');
+const scores = [[3, 7], [4, 1], [4, 4], [3, 5],
+    [4, 5], [3, 2], [4, 3], [6, 5]];
+console.log(getSuperSeriesWinner(scores));

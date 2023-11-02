@@ -1,9 +1,8 @@
-// export const castNumber = (value) => {
-//     let ans;
-//     if (value == Number(value)) {
-//         ans = Number(value);
-//     }
-//     return ans
-// };
-//
-// console.log(castNumber('1'));
+const res = [
+    [1, 2],
+    [3, 4],
+    [5, 6],
+];
+console.log(res[0]);
+console.log(res[0][0]);
+console.log(res[0][1]);
