@@ -6,6 +6,7 @@ import {reverse} from './unit6.js';
 import calculateSum from './unit7.js';
 import calculateAverage from './unit8.js';
 import getSameParity from './unit9.js';
+import getTotalAmount from './unit10.js';
 
 console.log('--- Unit 2 ---');
 console.log(getWeekends());
@@ -58,3 +59,16 @@ const result3 = [1, 2, 8];
 console.log(getSameParity(result3));
 const result4 = [2, 2, 8];
 console.log(getSameParity(result4));
+console.log('--- Unit 10 ---');
+const money1 = [
+    'eur 10', 'usd 1', 'usd 10', 'rub 50', 'usd 5',
+];
+console.log(getTotalAmount(money1, 'usd'));
+const money2 = [
+    'eur 10', 'usd 1', 'eur 5', 'rub 100', 'eur 20', 'eur 100', 'rub 200',
+];
+console.log(getTotalAmount(money2, 'eur'));
+const money3 = [
+    'eur 10', 'rub 50', 'eur 5', 'rub 10', 'rub 10', 'eur 100', 'rub 200',
+];
+console.log(getTotalAmount(money3, 'rub'));
