@@ -1,14 +1,14 @@
-// import {getWeekends} from './unit2/unit2.js';
-// import {swap} from './unit3/unit3.js';
-// import get from './unit4/unit4.js';
-// import addPrefix from './unit5/unit5.js';
-// import {reverse} from './unit6/unit6.js';
-// import calculateSum from './unit7/unit7.js';
-// import calculateAverage from './unit8/unit8.js';
-// import getSameParity from './unit9/unit9.js';
-// import getTotalAmount from './unit10/unit10.js';
-// import getSuperSeriesWinner from './unit11/unit11.js';
-// import makeCensored from './unit13/unit13.js';
+// import {getWeekends} from './unit2.js';
+// import {swap} from './unit3.js';
+// import get from './unit4.js';
+// import addPrefix from './unit5.js';
+// import {reverse} from './unit6.js';
+// import calculateSum from './unit7.js';
+// import calculateAverage from './unit8.js';
+// import getSameParity from './unit9.js';
+// import getTotalAmount from './unit10.js';
+// import getSuperSeriesWinner from './unit11.js';
+// import makeCensored from './unit13.js';
 //
 // console.log('--- Unit 2 ---');
 // console.log(getWeekends());
