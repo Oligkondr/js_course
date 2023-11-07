@@ -18,9 +18,15 @@
 // const a = 'apple'
 // console.log(`>>>${a}<<<`);
 
-const ar = [];
-if (ar.length) {
-    console.log('yes');
-}else {
-    console.log('no');
+// const ar = [];
+// if (ar.length) {
+//     console.log('yes');
+// }else {
+//     console.log('no');
+// }
+
+const locations = [['Park', [10, 5]], ['Sea', [1, 3]], ['Museum', [8, 4]]];
+
+for (const [x, [y, z]] of locations) {
+    console.log([x, [y, z]]);
 }
