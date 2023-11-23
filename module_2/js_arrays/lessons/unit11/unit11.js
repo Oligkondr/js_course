@@ -1,5 +1,5 @@
 const getSuperSeriesWinner = (scores) => {
-    let result = '';
+    let result;
     let USSRCount = 0;
     let CanadaCount = 0;
     for (let game of scores) {
