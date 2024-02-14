@@ -1,8 +1,9 @@
-var numRows = 10;
+const numRows = 10;
 
 const pascalRecursive = (n, a) => {
-
-    if (n < 2) return a;
+    if (n < 2) {
+        return a;
+    }
 
     const prevRow = a[a.length - 1];
     const curRow = [1];
