@@ -132,3 +132,26 @@
 //   }
 //   return message;
 // };
+
+const sumOfSquareDigits = (num) => {
+    const numAsStr = String(num);
+    let sum = 0;
+    for (let i = 0; i < numAsStr.length; i += 1) {
+        const digit = Number(numAsStr[i]);
+        sum += digit * digit;
+    }
+
+    return sum;
+};
+const isHappyNumber = (num) => {
+    let copy = num;
+    for (let i = 0; i < 10; i++) {
+        copy = sumOfSquareDigits(copy);
+        if (copy === 1) {
+            return true;
+        }
+    }
+    return false;
+};
+
+console.log(isHappyNumber(7));

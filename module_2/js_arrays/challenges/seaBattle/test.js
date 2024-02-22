@@ -40,8 +40,13 @@ const battleField6 = [
 ];
 
 console.log(isValidField(battleField1)); // true
+console.log('----');
 console.log(isValidField(battleField2)); // false
+console.log('----');
 console.log(isValidField(battleField3)); // true
+console.log('----');
 console.log(isValidField(battleField4)); // true
+console.log('----');
 console.log(isValidField(battleField5)); // false
+console.log('----');
 console.log(isValidField(battleField6)); // true
