@@ -1,9 +1,6 @@
 const isSubsequence = (sub) => {
-
-    if (sub.length <= 1) {
-        return false
-    }
-
+    if (sub.length === 0) return false;
+    if (sub.length === 1) return false;
     for (let i = 1; i < sub.length; i++) {
         if (sub[i] - sub[i - 1] !== 1) {
             return false;
