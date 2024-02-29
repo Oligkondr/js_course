@@ -19,7 +19,7 @@ const isValidField = (field) => {
 };
 
 const calcShipsCount = (field) => {
-    
+    return field;
 };
 
 const battleField6 = [
