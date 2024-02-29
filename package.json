@@ -4,6 +4,9 @@
   "description": "",
   "main": "trash_can/trash1.js",
   "type": "module",
+  "bin": {
+    "test-run": "trash_can/test_trash0.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
