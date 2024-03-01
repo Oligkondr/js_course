@@ -1,4 +1,4 @@
-const makeDecartPoint = (x, y) => ({x, y});
+const makeDecartPoint = (x, y) => ({ x, y });
 
 const getX = (point) => point.x;
 

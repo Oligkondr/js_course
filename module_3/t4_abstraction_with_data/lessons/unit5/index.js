@@ -1,21 +1,15 @@
-import {getX, getY, makeDecartPoint} from './points.js';
+import { getX, getY, makeDecartPoint } from './points.js';
 
-const makeSegment = (point1, point2) => {
-    return {beginPoint: point1, endPoint: point2};
-};
+const makeSegment = (point1, point2) => ({ beginPoint: point1, endPoint: point2, });
 
-const getBeginPoint = (segment) => {
-    return segment.beginPoint;
-};
+const getBeginPoint = (segment) => segment.beginPoint;
 
-const getEndPoint = (segment) => {
-    return segment.endPoint;
-};
+const getEndPoint = (segment) => segment.endPoint;
 
 const getMidpointOfSegment = (segment) => {
     const x = ((getX(getBeginPoint(segment)) + getX(getEndPoint(segment))) / 2);
     const y = ((getY(getBeginPoint(segment)) + getY(getEndPoint(segment))) / 2);
-    return {x, y};
+    return { x, y, };
 };
 
 const beginPoint = makeDecartPoint(3, 2);

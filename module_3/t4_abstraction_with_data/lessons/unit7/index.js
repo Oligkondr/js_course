@@ -1,6 +1,8 @@
-import {getQuadrant, getX, getY, makeDecartPoint} from './point.js';
+import {
+    getQuadrant, getX, getY, makeDecartPoint,
+} from './point.js';
 
-const makeRectangle = (point, width, height) => ({point, width, height});
+const makeRectangle = (point, width, height) => ({ point, width, height });
 
 const getStartPoint = (rectangle) => rectangle.point;
 

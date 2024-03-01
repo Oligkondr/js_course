@@ -3,7 +3,10 @@ import getGcd from './utils.js';
 
 const makeRational = (numer, denom) => {
     const gcd = getGcd(numer, denom);
-    return {numer: numer / gcd, denom: denom / gcd};
+    return {
+        numer: numer / gcd,
+        denom: denom / gcd,
+    };
 };
 
 const getNumer = (rational) => rational.numer;

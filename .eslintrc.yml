@@ -9,5 +9,6 @@ parserOptions:
 rules: {
   no-console: 0,
   import/extensions: 0,
-  indent: 0
+  indent: 0,
+  no-plusplus: 0,
 }
