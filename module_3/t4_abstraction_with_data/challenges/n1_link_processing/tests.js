@@ -14,7 +14,7 @@ import {
 // const url = make('https://hexlet.io/community?q=low');
 // const url = make('http://hexlet.io:8080/community?q=low');
 // const url = make('https://hexlet.io/community?q=low&user=guest');
-let url = make('https://example.com?foo=1&bar=2');
+const url = make('https://example.com?foo=1&bar=2');
 
 console.log(url);
 
