@@ -1,3 +1,11 @@
-const item = [1, 2, 3, 4, 3];
-
-console.log(item.indexOf(1, 0));
+// BEGIN (write your solution here)
+if (get({ hello: 'world' }, 'hello') !== 'world') {
+    throw new Error('Функция работает неверно!')
+}
+if (get({}, 'hello', 'kitty') !== 'kitty') {
+    throw new Error('Функция работает неверно!')
+}
+if (get({ hello: 'world' }, 'hello', 'kitty') !== 'world') {
+    throw new Error('Функция работает неверно!')
+}
+// END

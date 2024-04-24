@@ -12,7 +12,6 @@
 // expect(actual5).toEqual([1, 2, 3, 4, 5, 6]);
 // END
 
-
 // BEGIN (write your solution here)
 // const actual2 = indexOf([], 2);
 // expect(actual2).toBe(-1)

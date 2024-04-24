@@ -5,17 +5,15 @@ const scrabble = (symbols, word) => {
 
     word = word.toLowerCase();
 
-    const symbolsToObject = symbols.split('')
-      .reduce((acc, symbol) => {
-          Object.hasOwn(acc, symbol) ? acc[symbol] += 1 : acc[symbol] = 1;
-          return acc;
-      }, {});
+    const toObject = (str) => str.split('')
+        .reduce((acc, symbol) => {
+            Object.hasOwn(acc, symbol) ? acc[symbol] += 1 : acc[symbol] = 1;
+            return acc;
+        }, {});
 
-    const wordToObject = word.split('')
-      .reduce((acc, symbol) => {
-          Object.hasOwn(acc, symbol) ? acc[symbol] += 1 : acc[symbol] = 1;
-          return acc;
-      }, {});
+
+    const symbolsToObject = toObject(symbols);
+    const wordToObject = toObject(word);
 
     for (const elem in wordToObject) {
         if (Object.hasOwn(symbolsToObject, elem)) {
