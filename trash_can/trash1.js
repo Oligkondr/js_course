@@ -158,3 +158,6 @@
 // console.log(isHappyNumber(7));
 
 // console.log('Apple!');
+
+const a = 'cat';
+console.log(a.includes('at'));
